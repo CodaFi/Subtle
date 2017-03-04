@@ -11,6 +11,11 @@
 		829A3A291E6B56C700FC7281 /* Syntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A281E6B56C700FC7281 /* Syntax.swift */; };
 		829A3A2B1E6B57C200FC7281 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A2A1E6B57C200FC7281 /* Symbol.swift */; };
 		829A3A2D1E6B590C00FC7281 /* Variance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A2C1E6B590C00FC7281 /* Variance.swift */; };
+		829A3A2F1E6B615D00FC7281 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A2E1E6B615D00FC7281 /* Parser.swift */; };
+		829A3A311E6B61D800FC7281 /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A301E6B61D800FC7281 /* Either.swift */; };
+		829A3A341E6B623800FC7281 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A331E6B623800FC7281 /* Operators.swift */; };
+		829A3A361E6B626B00FC7281 /* Detritus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A351E6B626B00FC7281 /* Detritus.swift */; };
+		829A3A3C1E6B63D700FC7281 /* Parsables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A3B1E6B63D700FC7281 /* Parsables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		829A3A281E6B56C700FC7281 /* Syntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Syntax.swift; sourceTree = "<group>"; };
 		829A3A2A1E6B57C200FC7281 /* Symbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		829A3A2C1E6B590C00FC7281 /* Variance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variance.swift; sourceTree = "<group>"; };
+		829A3A2E1E6B615D00FC7281 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		829A3A301E6B61D800FC7281 /* Either.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
+		829A3A331E6B623800FC7281 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		829A3A351E6B626B00FC7281 /* Detritus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detritus.swift; sourceTree = "<group>"; };
+		829A3A3B1E6B63D700FC7281 /* Parsables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				829A3A1A1E6B562F00FC7281 /* PianoForte.h */,
+				829A3A321E6B61DA00FC7281 /* Detritus */,
+				829A3A2E1E6B615D00FC7281 /* Parser.swift */,
+				829A3A3B1E6B63D700FC7281 /* Parsables.swift */,
 				829A3A281E6B56C700FC7281 /* Syntax.swift */,
 				829A3A2A1E6B57C200FC7281 /* Symbol.swift */,
 				829A3A2C1E6B590C00FC7281 /* Variance.swift */,
 				829A3A1B1E6B562F00FC7281 /* Info.plist */,
 			);
 			path = PianoForte;
+			sourceTree = "<group>";
+		};
+		829A3A321E6B61DA00FC7281 /* Detritus */ = {
+			isa = PBXGroup;
+			children = (
+				829A3A301E6B61D800FC7281 /* Either.swift */,
+				829A3A331E6B623800FC7281 /* Operators.swift */,
+				829A3A351E6B626B00FC7281 /* Detritus.swift */,
+			);
+			name = Detritus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829A3A2F1E6B615D00FC7281 /* Parser.swift in Sources */,
 				829A3A2D1E6B590C00FC7281 /* Variance.swift in Sources */,
 				829A3A291E6B56C700FC7281 /* Syntax.swift in Sources */,
 				829A3A2B1E6B57C200FC7281 /* Symbol.swift in Sources */,
+				829A3A311E6B61D800FC7281 /* Either.swift in Sources */,
+				829A3A341E6B623800FC7281 /* Operators.swift in Sources */,
+				829A3A361E6B626B00FC7281 /* Detritus.swift in Sources */,
+				829A3A3C1E6B63D700FC7281 /* Parsables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

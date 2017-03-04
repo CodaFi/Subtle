@@ -22,7 +22,7 @@ public enum Polarity {
   public var variance : Variance {
     switch self {
     case .positive:
-      return .positive:
+      return .positive
     case .negative:
       return .negative
     }
@@ -41,22 +41,24 @@ public enum Variance : CustomStringConvertible {
       return x
     case let (x, .none):
       return x
-    case let (.positive, .positive):
+    case (.positive, .positive):
       return .positive
-    case let (.negative, .negative):
+    case (.negative, .negative):
       return .negative
-    case let (.negative, .positive):
+    case (.negative, .positive):
       return .mixed
-    case let (.positive, .negative):
+    case (.positive, .negative):
       return .mixed
     case (.mixed, _):
       return .mixed
-    case (_m .mixed):
+    case (_, .mixed):
       return .mixed
+    default:
+      fatalError("Non-exhaustive join?")
     }
   }
 
-  var description : String {
+  public var description : String {
     switch self {
     case .none:
       return ""
