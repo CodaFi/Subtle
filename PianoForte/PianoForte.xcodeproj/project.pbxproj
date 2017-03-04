@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		829A3A1C1E6B562F00FC7281 /* PianoForte.h in Headers */ = {isa = PBXBuildFile; fileRef = 829A3A1A1E6B562F00FC7281 /* PianoForte.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		829A3A291E6B56C700FC7281 /* Syntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A281E6B56C700FC7281 /* Syntax.swift */; };
+		829A3A2B1E6B57C200FC7281 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A2A1E6B57C200FC7281 /* Symbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		829A3A1A1E6B562F00FC7281 /* PianoForte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PianoForte.h; sourceTree = "<group>"; };
 		829A3A1B1E6B562F00FC7281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		829A3A281E6B56C700FC7281 /* Syntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Syntax.swift; sourceTree = "<group>"; };
+		829A3A2A1E6B57C200FC7281 /* Symbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				829A3A1A1E6B562F00FC7281 /* PianoForte.h */,
 				829A3A281E6B56C700FC7281 /* Syntax.swift */,
+				829A3A2A1E6B57C200FC7281 /* Symbol.swift */,
 				829A3A1B1E6B562F00FC7281 /* Info.plist */,
 			);
 			path = PianoForte;
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				829A3A291E6B56C700FC7281 /* Syntax.swift in Sources */,
+				829A3A2B1E6B57C200FC7281 /* Symbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
