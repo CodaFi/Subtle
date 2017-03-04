@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		829284051E6B8AA2006400C5 /* PianoForte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829A3A271E6B563000FC7281 /* PianoForte.framework */; };
 		829A3A071E6B561900FC7281 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A061E6B561900FC7281 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		829284021E6B8A9F006400C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829A3A221E6B562F00FC7281 /* PianoForte.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 829A3A161E6B562F00FC7281;
+			remoteInfo = PianoForte;
+		};
 		829A3A261E6B563000FC7281 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 829A3A221E6B562F00FC7281 /* PianoForte.xcodeproj */;
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829284051E6B8AA2006400C5 /* PianoForte.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +105,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				829284031E6B8A9F006400C5 /* PBXTargetDependency */,
 			);
 			name = Subtle;
 			productName = Subtle;
@@ -162,6 +172,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		829284031E6B8A9F006400C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PianoForte;
+			targetProxy = 829284021E6B8A9F006400C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		829A3A081E6B561900FC7281 /* Debug */ = {

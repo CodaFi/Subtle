@@ -23,16 +23,18 @@ let parseKeyword : Parser<ParsableUnicodeScalar, Token> = pFilter({ t in
 
 let parseBracket : Parser<ParsableUnicodeScalar, Token> = { w in
   return Token.Keyword(w.location, Keyword(withString: String(w.unScalar))!)
-} <^> tokenFilter({ t in Set("(){}".unicodeScalars).contains(t.unScalar) })
+} <^> tokenFilter({ t in Set("(){}[]".unicodeScalars).contains(t.unScalar) })
 
 let parseWord : Parser<ParsableUnicodeScalar, [ParsableUnicodeScalar]>
-  = some(tokenFilter({ t in !Set(" \n\t(){}".unicodeScalars).contains(t.unScalar) }))
+  = some(tokenFilter({ t in !Set(" \n\t(){}[]".unicodeScalars).contains(t.unScalar) }))
 
 public indirect enum Keyword : String {
   case lparen = "("
   case rparen = ")"
   case lbrace = "{"
   case rbrace = "}"
+  case lbrack = "["
+  case rbrack = "]"
 
   case arrow = "->"
   case comma = ","
@@ -83,6 +85,8 @@ public indirect enum Keyword : String {
       .rparen,
       .lbrace,
       .rbrace,
+      .lbrack,
+      .rbrack,
 
       .arrow,
       .comma,

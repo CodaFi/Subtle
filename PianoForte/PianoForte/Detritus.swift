@@ -11,6 +11,10 @@ public indirect enum ArrayMatcher<A> {
   case Cons(A, [A])
 }
 
+public func error<T>() -> T {
+  fatalError("")
+}
+
 public func const<A, B>(_ x : A, _ : B) -> A {
   return x
 }

@@ -262,6 +262,3 @@ public func sepBy1<T, S, X>(_ sep : Parser<T, S>, _ p : Parser<T, X>) -> Parser<
   }
 }
 
-public func error<T>() -> T {
-  fatalError("")
-}
