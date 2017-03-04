@@ -16,6 +16,7 @@
 		829A3A341E6B623800FC7281 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A331E6B623800FC7281 /* Operators.swift */; };
 		829A3A361E6B626B00FC7281 /* Detritus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A351E6B626B00FC7281 /* Detritus.swift */; };
 		829A3A3C1E6B63D700FC7281 /* Parsables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A3B1E6B63D700FC7281 /* Parsables.swift */; };
+		829A3A3E1E6B64CA00FC7281 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A3A3D1E6B64C900FC7281 /* Lexer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		829A3A331E6B623800FC7281 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		829A3A351E6B626B00FC7281 /* Detritus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detritus.swift; sourceTree = "<group>"; };
 		829A3A3B1E6B63D700FC7281 /* Parsables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsables.swift; sourceTree = "<group>"; };
+		829A3A3D1E6B64C900FC7281 /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				829A3A321E6B61DA00FC7281 /* Detritus */,
 				829A3A2E1E6B615D00FC7281 /* Parser.swift */,
 				829A3A3B1E6B63D700FC7281 /* Parsables.swift */,
+				829A3A3D1E6B64C900FC7281 /* Lexer.swift */,
 				829A3A281E6B56C700FC7281 /* Syntax.swift */,
 				829A3A2A1E6B57C200FC7281 /* Symbol.swift */,
 				829A3A2C1E6B590C00FC7281 /* Variance.swift */,
@@ -172,6 +175,7 @@
 				829A3A311E6B61D800FC7281 /* Either.swift in Sources */,
 				829A3A341E6B623800FC7281 /* Operators.swift in Sources */,
 				829A3A361E6B626B00FC7281 /* Detritus.swift in Sources */,
+				829A3A3E1E6B64CA00FC7281 /* Lexer.swift in Sources */,
 				829A3A3C1E6B63D700FC7281 /* Parsables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -291,6 +291,7 @@
 				829A3A0C1E6B561900FC7281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
